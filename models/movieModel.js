@@ -7,6 +7,6 @@ const movieSchema = new mongoose.Schema({
   image: { type: String, required: true },
 });
 
-const movieModel = mongoose.models.movie || mongoose.model("food", movieSchema);
+const movieModel = mongoose.models.movie || mongoose.model("movie", movieSchema);
 
 export default movieModel;
